@@ -10,6 +10,7 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 ARFoundationRemoteCompanionApp/
+Packages/com.unity.xr.arfoundation@4.1.7/Runtime/AR/ARMeshManager.cs
 
 
 # Never ignore Asset meta data
