@@ -101,7 +101,7 @@ public class ImageTracking : MonoBehaviour
         {
             //deactivate the image tracked ar object 
             allObjects[trackedImage.referenceImage.name].SetActive(false);
-            GameObject.Find("MorePanelRight").SetActive(false);
+            //GameObject.Find("MorePanelRight").SetActive(false);
         }
     }
 

@@ -694,7 +694,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 5.299988, y: 2.2}
-  m_SizeDelta: {x: 1254, y: 785.6}
+  m_SizeDelta: {x: 1200, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8919956308174570006
 CanvasRenderer:
@@ -1021,6 +1021,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2072867179089716382}
+  - component: {fileID: 3784626679947929577}
+  - component: {fileID: 4205946903309315901}
   m_Layer: 0
   m_Name: WerkwijzeTabs
   m_TagString: Untagged
@@ -1047,11 +1049,43 @@ RectTransform:
   m_Father: {fileID: 7684538950676795203}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 250, y: -150}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 275, y: -590}
   m_SizeDelta: {x: 1920, y: 200}
-  m_Pivot: {x: 0.5, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &3784626679947929577
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856897297793703517}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 84853b7aeb76a954d977ef7c6c674fc3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4205946903309315901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856897297793703517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0d62f92a44ca843ad33c74aa90dc38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectToDisable: {fileID: 856897297793703517}
 --- !u!1 &1023710208399404022
 GameObject:
   m_ObjectHideFlags: 0
@@ -2351,7 +2385,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 5.299988, y: 2.2}
-  m_SizeDelta: {x: 1254, y: 785.6}
+  m_SizeDelta: {x: 1200, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7125942668405653794
 CanvasRenderer:
@@ -2462,6 +2496,9 @@ GameObject:
   - component: {fileID: 8129812281229225907}
   - component: {fileID: 3865854641169401938}
   - component: {fileID: 517362086248519282}
+  - component: {fileID: 4446799865821994558}
+  - component: {fileID: 740835972367568738}
+  - component: {fileID: 5355187230173284772}
   m_Layer: 0
   m_Name: Button_Phone
   m_TagString: Untagged
@@ -2582,6 +2619,74 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 740835972367568738}
+        m_TargetAssemblyTypeName: StartAnimationOnClick, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5355187230173284772}
+        m_TargetAssemblyTypeName: OpenURL, Assembly-CSharp
+        m_MethodName: Open
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!95 &4446799865821994558
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425478151761135874}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 13d949f62e64d7f49ae509170b560008, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &740835972367568738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425478151761135874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb36f65648ec3448a11173e5fcd7391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5355187230173284772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425478151761135874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f2dc903328536408d815a0714a0cf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Url: tel://+31643939086
 --- !u!1 &3434985351690406580
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,6 +2699,7 @@ GameObject:
   - component: {fileID: 6873741203978249862}
   - component: {fileID: 4908988094400349006}
   - component: {fileID: 6178120063603248919}
+  - component: {fileID: 6930192832702067065}
   m_Layer: 0
   m_Name: PicturePanel
   m_TagString: Untagged
@@ -2620,7 +2726,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 75, y: -50}
+  m_AnchoredPosition: {x: 200, y: -50}
   m_SizeDelta: {x: 1110, y: 0}
   m_Pivot: {x: 1, y: 0}
 --- !u!222 &6873741203978249862
@@ -2680,6 +2786,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6930192832702067065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3434985351690406580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0d62f92a44ca843ad33c74aa90dc38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectToDisable: {fileID: 3434985351690406580}
 --- !u!1 &3467927013593222076
 GameObject:
   m_ObjectHideFlags: 0
@@ -2692,6 +2811,8 @@ GameObject:
   - component: {fileID: 6467114565087451022}
   - component: {fileID: 392565929318718805}
   - component: {fileID: 6349495462008470097}
+  - component: {fileID: 8613613082067435706}
+  - component: {fileID: 2074014467226423294}
   m_Layer: 0
   m_Name: Button_Website
   m_TagString: Untagged
@@ -2824,6 +2945,49 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2074014467226423294}
+        m_TargetAssemblyTypeName: StartAnimationOnClick, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!95 &8613613082067435706
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3467927013593222076}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b1ede9b012c901649b267c4f98712e66, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2074014467226423294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3467927013593222076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb36f65648ec3448a11173e5fcd7391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3638389677952641024
 GameObject:
   m_ObjectHideFlags: 0
@@ -3073,7 +3237,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 5.299988, y: 2.2}
-  m_SizeDelta: {x: 1254, y: 785.6}
+  m_SizeDelta: {x: 1200, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8977700020156738127
 CanvasRenderer:
@@ -3639,7 +3803,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 5.299988, y: 2.2}
-  m_SizeDelta: {x: 1254, y: 785.6}
+  m_SizeDelta: {x: 1200, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &51651979432278737
 CanvasRenderer:
@@ -5614,6 +5778,8 @@ GameObject:
   - component: {fileID: 7762424291205713434}
   - component: {fileID: 7320117634293631388}
   - component: {fileID: 3359594844156817925}
+  - component: {fileID: 8217758495973450942}
+  - component: {fileID: 2872148786464554828}
   m_Layer: 0
   m_Name: Button_Werkwijze
   m_TagString: Untagged
@@ -5749,6 +5915,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3359594844156817925}
+        m_TargetAssemblyTypeName: ActivateAndDeactivate, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8217758495973450942}
+        m_TargetAssemblyTypeName: StartAnimationOnClick, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!114 &3359594844156817925
 MonoBehaviour:
@@ -5762,8 +5952,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c111a1a252f52b347ae2bb7c0efc5477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toggleGO: {fileID: 3434985351690406580}
+  PicturePanel: {fileID: 3434985351690406580}
+  WerkWijzeTabs: {fileID: 856897297793703517}
   WerkwijzeButton: {fileID: 7320117634293631388}
+--- !u!114 &8217758495973450942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7766169585921712128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb36f65648ec3448a11173e5fcd7391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &2872148786464554828
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7766169585921712128}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4e92bfc54275498438cac9e924c520e3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8203251683052205875
 GameObject:
   m_ObjectHideFlags: 0
@@ -5776,6 +5998,9 @@ GameObject:
   - component: {fileID: 7692576934915308979}
   - component: {fileID: 5957388078311795472}
   - component: {fileID: 2513888509891498317}
+  - component: {fileID: 8757145714450958117}
+  - component: {fileID: 6473547644074769246}
+  - component: {fileID: 7485869011317183096}
   m_Layer: 0
   m_Name: Button_Mail
   m_TagString: Untagged
@@ -5896,6 +6121,74 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6473547644074769246}
+        m_TargetAssemblyTypeName: StartAnimationOnClick, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7485869011317183096}
+        m_TargetAssemblyTypeName: OpenURL, Assembly-CSharp
+        m_MethodName: SendMail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!95 &8757145714450958117
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203251683052205875}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1825f3f60a5e704479b52869b3ea20b6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6473547644074769246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203251683052205875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb36f65648ec3448a11173e5fcd7391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7485869011317183096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203251683052205875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f2dc903328536408d815a0714a0cf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Url: 
 --- !u!1 &8522103365219885731
 GameObject:
   m_ObjectHideFlags: 0
