@@ -724,7 +724,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ConceptText
+  m_text: "Wanneer het doel, doelgroep en de voorwaarden helder zijn, bedenken wij
+    een creatief concept voor de vraagstuk. Dit kan bestaan uit spelelementen, kort
+    verhaal of unieke sellingpoints door een game/applicatie zijn.\r\n\nDaarnaast
+    zal er een minimum viable product (MVP) worden opgesteld om te laten zien wat
+    er nodig is om het volledige product te realizeren.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2415,7 +2419,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: OpbouwText
+  m_text: "Voordat wij bezig gaan met het eerste prototype willen wij eerst weten
+    wie de product owner is. Deze kan aangewezen worden door ons of samen besproken
+    worden met jou.\r\n\nDe product owner is het aanspreekpunt in het gehele proces
+    en vormt een team rondom de opdracht dat bestaat uit geschikte interne en externe
+    specialisten.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3267,7 +3275,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PrototypingText
+  m_text: "Wij maken tijdens de productie sprints verscheidene prototypes. Deze prototypes
+    vinken stuk voor stuk een onderdeel van de MVP af. Elk van dit prototype wordt
+    getest bij de doelgroep en aan jou geshowcased.\r\n\nHierop itereren wij op de
+    feedback dat naar voren komt in de volgende versie van het prototype tot nader
+    het eindproduct.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3833,7 +3845,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EvaluatieText
+  m_text: "Tijdens de evaluatie kijken wij gezamenlijk naar de verschillende onderdelen
+    en zorgen ervoor dat het prototypes tot een eindproduct wordt.\r\n\nHierin worden
+    er gebruikerstesten uitgevoerd en feedback verzameld. De feedback verwerken wij
+    deze voor het eindproduct en worden daarna alle sprints van de prototype en product
+    afgerond voor oplevering en lancering.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4883,7 +4899,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AnalyseText
+  m_text: 'In de analyse fase kijken wij gezamenlijk naar het vraagstuk, probleem
+    of verlangen. Hiermee denken wij met jouw mee aan een oplossing die bij jouw
+    doelgroep en/of locatie past.
+
+
+    Wanneer alle voorwaarden zijn bepaald zetten
+    wij deze op papier en gaan we kijken naar een gezamelijke akkoord om daarna aan
+    de slag te gaan.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
